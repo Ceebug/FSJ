@@ -2,7 +2,7 @@
 
 # FSJ
 
-**FSJ** is a JavaScript serializer for the **Ceedoku Save Format (CSF)**.
+**FSJ** is a JavaScript serializer for the [**Ceedoku Save Format (CSF)**.](https://ceedoku.github.io/CSF-Spec-1.0.pdf)
 
 It converts a JSON string into a CSF binary save file and automatically downloads the resulting `.csf` file.
 
