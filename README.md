@@ -138,7 +138,7 @@ This allows different applications to generate compatible CSF save files.
 
 ## Supported CSF Properties
 
-FSJ currently supports the properties defined by CSF 1.0:
+FSJ currently supports the properties defined by [CSF 1.0](https://ceedoku.github.io/CSF-Spec-1.0.pdf):
 
 | Property            | Supported |
 | ------------------- | --------- |
@@ -174,7 +174,7 @@ FSJ currently generates:
 CEEDOKU-CSF/1
 ```
 
-This corresponds to **CSF 1.0**.
+This corresponds to **[CSF 1.0](https://ceedoku.github.io/CSF-Spec-1.0.pdf):**.
 
 The CSF specification defines the binary structure, key shortcodes, field widths, encoding rules, and CRC-32C checksum.
 
@@ -213,6 +213,6 @@ FSJ is designed to be:
 
 ## License
 
-FSJ is an implementation of the **Ceedoku Save Format (CSF)** specification.
+FSJ is an implementation of the [**Ceedoku Save Format (CSF)** Specification.](https://ceedoku.github.io/CSF-Spec-1.0.pdf)
 
-Anyone may implement CSF-compatible serializers and parsers according to the CSF specification.
+Anyone may implement CSF-compatible serializers and parsers according to the [CSF specification](https://ceedoku.github.io/CSF-Spec-1.0.pdf).
