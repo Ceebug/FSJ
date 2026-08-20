@@ -2,7 +2,7 @@
 
 # FSJ
 
-**FSJ** is a JavaScript serializer for the [**Ceedoku Save Format (CSF)**.](https://ceedoku.github.io/CSF-Spec-1.0.pdf)
+**FSJ** is a JavaScript serializer for the [**Ceedoku Save Format (CSF)**.](https://ceedoku.github.io/csfspec)
 
 It converts a JSON string into a CSF binary save file and automatically downloads the resulting `.csf` file.
 
@@ -138,7 +138,7 @@ This allows different applications to generate compatible CSF save files.
 
 ## Supported CSF Properties
 
-FSJ currently supports the properties defined by [CSF 1.0](https://ceedoku.github.io/CSF-Spec-1.0.pdf):
+FSJ currently supports the properties defined by [CSF 1.0](https://ceedoku.github.io/csfspec):
 
 | Property            | Supported |
 | ------------------- | --------- |
@@ -174,7 +174,7 @@ FSJ currently generates:
 CEEDOKU-CSF/1
 ```
 
-This corresponds to **[CSF 1.0](https://ceedoku.github.io/CSF-Spec-1.0.pdf):**.
+This corresponds to **[CSF 1.0](https://ceedoku.github.io/csfspec):**.
 
 The CSF specification defines the binary structure, key shortcodes, field widths, encoding rules, and CRC-32C checksum.
 
@@ -213,6 +213,6 @@ FSJ is designed to be:
 
 ## License
 
-FSJ is an implementation of the [**Ceedoku Save Format (CSF)** Specification.](https://ceedoku.github.io/CSF-Spec-1.0.pdf)
+FSJ is an implementation of the [**Ceedoku Save Format (CSF)** Specification.](https://ceedoku.github.io/csfspec)
 
-Anyone may implement CSF-compatible serializers and parsers according to the [CSF specification](https://ceedoku.github.io/CSF-Spec-1.0.pdf).
+Anyone may implement CSF-compatible serializers and parsers according to the [CSF specification](https://ceedoku.github.io/csfspec).
