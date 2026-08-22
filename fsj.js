@@ -1,3 +1,4 @@
+// pls link to fsj here if u want to be a nice person, this is not required tho
 const FSJ = (() => {
 
     const HEADER = "CEEDOKU-CSF/1";
