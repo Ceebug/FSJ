@@ -93,7 +93,21 @@ FSJ automatically names the generated file:
 ceedoku-save.csf
 ```
 
-The filename can be changed in the FSJ implementation if a project requires a different default.
+A custom filename can also be provided when calling FSJ:
+
+```js
+FSJ(json, "my-save");
+```
+
+This generates:
+
+```text
+my-save.csf
+```
+
+The `.csf` extension is added automatically and should not be included in the filename argument.
+
+If no filename is provided, FSJ uses `ceedoku-save.csf` as the default.
 
 ---
 
